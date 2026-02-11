@@ -1,0 +1,11 @@
+{
+    "name": "pepl-hrms",
+    "private": true,
+    "scripts": {
+        "dev:backend": "cd pepl-backend && npm run start:dev",
+        "dev:frontend": "cd pepl-frontend && npm run dev",
+        "build:backend": "cd pepl-backend && npm run build",
+        "build:frontend": "cd pepl-frontend && npm run build",
+        "install:all": "cd pepl-backend && npm install && cd ../pepl-frontend && npm install"
+    }
+}
