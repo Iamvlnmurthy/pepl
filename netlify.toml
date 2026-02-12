@@ -3,9 +3,8 @@
   publish = "pepl-frontend/.next"
 
 [functions]
-  directory = "pepl-backend/dist"
+  directory = "netlify/functions"
   node_bundler = "esbuild"
-  included_files = ["pepl-backend/dist/**/*.js"]
   external_node_modules = ["@nestjs/microservices", "@nestjs/websockets", "cache-manager"]
 
 [[redirects]]
