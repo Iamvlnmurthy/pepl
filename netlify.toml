@@ -5,6 +5,8 @@
 [functions]
   directory = "pepl-backend/dist"
   node_bundler = "esbuild"
+  included_files = ["pepl-backend/dist/**/*.js"]
+  external_node_modules = ["@nestjs/microservices", "@nestjs/websockets", "cache-manager"]
 
 [[redirects]]
   from = "/api/*"
